@@ -9,6 +9,9 @@ export  const AddCategory = ({SetCategories}) => {
         const handleInputChange = (e) => {
             
             setInputValue(e.target.value)
+
+            console.log('HandleInputChange llamado');
+
         }
         
         const handleSubmit = (e) => {
@@ -25,6 +28,7 @@ export  const AddCategory = ({SetCategories}) => {
         }
         return (
             <form onSubmit= {handleSubmit}>
+                <h3>Vas a enviar { InputValue }</h3> {/*Esto es temporal*/}
                 <input
                 type="text" 
                 value={InputValue}

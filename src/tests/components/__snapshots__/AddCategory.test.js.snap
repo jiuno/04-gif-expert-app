@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para <AddCategory /> Debe renderizar <AddCategory 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Vas a enviar 
+  </h3>
+   
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
