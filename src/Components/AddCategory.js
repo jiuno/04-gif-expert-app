@@ -19,6 +19,7 @@ export  const AddCategory = ({SetCategories}) => {
             if (InputValue.trim().length >= 2) {
                 SetCategories((cats) => [InputValue, ...cats]); //Esto es categories ahora
                 setInputValue(''); 
+                console.log('HandleSubmit llamado')
                 
             }
 
